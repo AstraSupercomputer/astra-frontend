@@ -1,0 +1,58 @@
+.profile-view {
+    font-size: medium;
+    position: absolute;
+    left: 9em;
+    right: 0px;
+    margin: 0em auto 0em 3em;
+    padding: 5em 5em 5em 0em;
+    height: 100%;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.balance-bar {
+    color: #7a7a7a;
+    margin: 3em 2em 0em 0em;
+    width: 50%;
+    max-width: 100em;
+    min-width: 32em;
+    background: rgb(243, 243, 243, 0.85);
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+}
+
+.gradient-box {
+    position: relative;
+    font-size: small;
+    width: 42%;
+    padding: 1em;
+    margin: 1em 0em 1em 1em;
+    height: 3.5em;
+    color: rgb(220, 220, 220);
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 170deg, rgb(190,80,178) 0%, rgb(90,121,172) 100%);
+    background-image: -webkit-linear-gradient( 170deg, rgb(190,80,178) 0%, rgb(90,121,172) 100%);
+    background-image: -ms-linear-gradient( 170deg, rgb(190,80,178) 0%, rgb(90,121,172) 100%);
+}
+
+.dark-box {
+    position: relative;
+    font-size: small;
+    width: 42%;
+    padding: 1em;
+    margin: 1em 0em 1em 1em;
+    height: 3.5em;
+    color: #7a7a7a;
+    border-radius: 5px;
+    background-color: rgb(220, 220, 220);
+}
+
+.achievements-bar {
+    width: 50%;
+    color: rgb(216, 216, 216);
+    background: rgba(48, 48, 48, 0.5);
+    margin: 3em 2em 0em 0em;
+    min-width: 17em;
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+}

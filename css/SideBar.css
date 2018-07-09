@@ -1,0 +1,17 @@
+.side-bar {
+    position: fixed;
+    height: 100%;
+    top: 5em;
+    padding: 0em 1em 4em 2em;
+    overflow-x: hidden;
+    line-height: 20px;
+    font-size: medium;
+    float:left;
+    z-index: 0;
+}
+
+.navigation {
+    margin-top: 3em;
+    line-height: 2.5em;
+}
+  

@@ -1,0 +1,270 @@
+.no-button {
+    outline: none;
+    background: none;
+    border-style: none;
+}
+
+.no-button:hover {
+    cursor: pointer;
+}
+
+
+.small-button {
+    outline: none;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    color: rgb(150, 150, 150);
+    font-size: 12px;
+    text-decoration: None;
+}
+
+.small-button:hover {
+    transition: all 0.2s ease;
+    cursor: pointer; 
+    text-decoration: underline;
+}
+
+.select-light {
+    outline: none;
+    transition: all 0.2s ease;
+    margin: 0em 0.5em;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 30px;
+    border-color: rgb(77, 77, 77);
+    border-width: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #646464;
+}
+
+.select-light:hover {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    background: #646464;
+    color: rgb(223, 223, 223);
+}
+
+.submit-dark {
+    outline: none;
+    transition: all 0.2s ease;
+    width: 270px;
+}
+
+.submit-dark:hover {
+    transition: all 0.2s ease;
+    background-color: rgb(233, 233, 233);
+    color: rgb(71, 71, 71);
+    cursor: pointer; 
+}
+
+.submit-light {
+    outline: none;
+    transition: all 0.2s ease;
+    box-shadow: 0px 3px 20px 0px rgba(31, 31, 31, 0.34);
+    width: 270px;
+    color: rgb(230, 230, 230);
+    background-image: -moz-linear-gradient( 180deg, rgb(88,123,179) 0%, rgb(149,83,167) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(88,123,179) 0%, rgb(149,83,167) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(88,123,179) 0%, rgb(149,83,167) 100%);
+    margin-top: 48px;
+}
+
+.submit-light:hover {
+    transition: all 0.2s ease;
+    cursor: pointer; 
+    background-image: -moz-linear-gradient( 180deg, rgb(134, 167, 221) 0%, rgb(195, 134, 212) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(134, 167, 221) 0%, rgb(195, 134, 212) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(134, 167, 221) 0%, rgb(195, 134, 212) 100%);
+}
+
+.light-link {
+    outline: none;
+    transition: all 0.7s ease;
+    font-weight: 100;
+    color: rgb(230, 230, 230);
+    border: none;
+    background: none;
+    font-size: small;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.light-link:hover {
+    transition: all 0.2s ease;
+    cursor: pointer; 
+    text-decoration: underline;
+    color:  rgb(230, 230, 230);
+}
+
+.logout-button {
+    outline: none;
+    transition: all 0.2s ease;
+    font-weight: 100;
+    color: rgb(230, 230, 230);
+    border: none;
+    background: none;
+    font-size: small;
+    text-decoration: none;
+    margin-left: 1em;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    padding: 0.5em 0.7em;
+    text-decoration: none;
+}
+
+.logout-button:hover {
+    transition: all 0.2s ease;
+    background: rgb(230, 230, 230);
+    color: rgba(80, 80, 80);
+    cursor: pointer;
+}
+
+.dark-link {
+    outline: none;
+    transition: all 0.2s ease;
+    font-weight: 100;
+    color: #646464;
+    font-size: medium;
+    border: none;
+    background: none;
+    text-decoration: none;
+}
+
+.dark-link:visited {
+    transition: all 0.2s ease;
+    color:  rgb(77, 77, 77);
+}
+
+.dark-link:hover {
+    transition: all 0.2s ease;
+    cursor: pointer; 
+    text-decoration: underline;
+    color:  rgb(54, 54, 54);
+}
+
+.dark-link-selected {
+    font-weight: 100;
+    transition: all 0.2s ease;
+    color: #646464;
+    font-size: medium;
+    border: none;
+    background: none;
+    color:  rgb(77, 77, 77);
+    text-decoration: underline;
+}
+
+.add-button {
+    transition: all 0.2s ease;
+    background: none;
+    border-color: #646464;
+    color: #646464;
+    font-weight: 100;
+    font-size: xx-large;
+    border-color: #646464;
+    border-radius: 2em;
+    outline: none;
+}
+
+.add-button:hover {
+    transition: all 0.2s ease;
+    cursor: pointer; 
+    background-color: #646464;
+    color: #dfdfdf;
+}
+
+.small-select {
+    z-index: 111;
+    margin-top: 4px;
+    color: #646464;
+    transition: all 0.2s ease;
+    background: none;
+    border-style: none;
+    border: 1px solid #646464;
+    padding: 3px 0px 3px;
+    width: 7em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    outline: none;
+}
+
+.small-select:hover {
+    transition: all 0.2s ease;
+    cursor: pointer; 
+    color: #dfdfdf;
+    background: #646464;
+}
+
+.filter-button {
+    min-width: 3em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    border-radius: 5px;
+    color: rgb(238, 238, 238);
+    /* border-color: rgb(238, 238, 238); */
+    padding: 5px;
+    margin: 4px 4px 4px 0px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+.filter-button:hover {
+    font-size: small;
+    background-color: rgb(238, 238, 238);
+    color: #646464;
+    transition: all 0.2s ease;
+    cursor: pointer; 
+    border-color: rgb(238, 238, 238);
+}
+
+.quit {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    background-color: rgba(210, 51, 59, 0.13);
+    border: 1px solid rgb(210, 51, 59);
+    border-radius: 30px;
+    color: rgb(210, 51, 59);
+    padding: 0.3em 1em;
+    font-size: small;
+    width: 6em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.quit:hover {
+    background-color: rgba(210, 51, 59, 0.7);
+    color: rgb(238, 238, 238);
+}
+
+.suspend {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    background-color: rgba(61, 80, 172, 0.13);
+    border: 1px solid rgb(61, 80, 172);
+    border-radius: 30px;
+    color: rgb(61, 80, 172);
+    padding: 0.3em 1em;
+    font-size: small;
+    width: 6em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.suspend:hover {
+    background-color: rgba(61, 80, 172, 0.7);
+    color: rgb(238, 238, 238);
+}
+
+.edit {
+    transition: all 0.1s ease;
+    background-color: rgb(243, 243, 243);
+    border-radius: 30px;
+    padding: 0.34em 0.3em;
+    box-shadow: 0px 3px 20px 0px rgba(31, 31, 31, 0.34);
+}
+
+.edit:hover {
+    padding: 0.44em 0.4em;
+    cursor: pointer;
+}

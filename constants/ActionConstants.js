@@ -1,0 +1,27 @@
+import ServerAPI from '../ServerAPI'
+
+export default {
+  REGISTER:             {method: ServerAPI.register,            value: 'REGISTER'             },
+  LOGGED_IN:            {method: null,                          value: 'LOGIN'                },
+  LOGOUT:               {method: ServerAPI.logoutUser,          value: 'LOGOUT'               },
+  ADD_USER_DATA:        {method: ServerAPI.addUserData,         value: 'ADD_USER_DATA'        },
+  UPLOAD_PHOTO:         {method: ServerAPI.uploadPhoto,         value: 'UPLOAD_PHOTO'         },
+  DELETE_USER:          {method: ServerAPI.deleteUser,          value: 'DELETE_USER'          },
+  RESET_PASSWORD_EMAIL: {method: ServerAPI.resetPasswordEmail,  value: 'RESET_PASSWORD_EMAIL' },
+  RESET_PASSWORD:       {method: ServerAPI.resetPassword,       value: 'RESET_PASSWORD'       },
+  CHANGE_PASSWORD:      {method: ServerAPI.changeUserPassword,  value: 'CHANGE_PASSWORD'      },
+  DEVICE_CHANGE:        {method: ServerAPI.getDeviceStore,      value: 'DEVICE_CHANGE'        },
+  GET_PROJECTS:         {method: ServerAPI.getProjects,         value: 'GET_PROJECTS'         },
+  START_PROJECT:        {method: ServerAPI.addProject,          value: 'ADD_PROJECT'          },
+  END_PROJECT:          {method: ServerAPI.removeProject,       value: 'REMOVE_PROJECT'       },
+  CHANGE_USAGE_TIMES:   {method: ServerAPI.changeUsageTimes,    value: 'CHANGE_USAGE_TIMES'   },
+  CHANGE_CPU_PERCENT:   {method: ServerAPI.changeCPUPercent,    value: 'CHANGE_CPU_PERCENT'   },
+  CHANGE_CPU_CORES:     {method: ServerAPI.changeCPUCores,      value: 'CHANGE_CPU_CORES'     },
+  CHANGE_DISK_PERCENT:  {method: ServerAPI.changeDiskPercent,   value: 'CHANGE_DISK_PERCENT'  },
+  CHANGE_RAM_PERCENT:   {method: ServerAPI.changeRAMPercent,    value: 'CHANGE_RAM_PERCENT'   },
+  CHANGE_NETWORK_DOWN:  {method: ServerAPI.changeNetworkDown,   value: 'CHANGE_NETWORK_DOWN'  },
+  CHANGE_NETWORK_UP:    {method: ServerAPI.changeNetworkUP,     value: 'CHANGE_NETWORK_UP'    },
+  RUN_ON_BATTERIES:     {method: ServerAPI.runOnBatteries,      value: 'RUN_ON_BATTERIES'     },
+  RUN_IF_ACTIVE:        {method: ServerAPI.runifInactive,       value: 'RUN_IF_ACTIVE'        },
+  USE_MEMORY_ONLY:      {method: ServerAPI.useMemoryOnly,       value: 'USE_MEMORY_ONLY'      },
+};
